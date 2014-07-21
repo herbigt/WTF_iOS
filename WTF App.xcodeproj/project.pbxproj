@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51029D55197D5D8600482527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D54197D5D8600482527 /* Foundation.framework */; };
+		51029D57197D5D8600482527 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D56197D5D8600482527 /* CoreGraphics.framework */; };
+		51029D59197D5D8600482527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D58197D5D8600482527 /* UIKit.framework */; };
+		51029D5F197D5D8600482527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51029D5D197D5D8600482527 /* InfoPlist.strings */; };
+		51029D61197D5D8600482527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51029D60197D5D8600482527 /* main.m */; };
+		51029D65197D5D8600482527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51029D64197D5D8600482527 /* AppDelegate.m */; };
+		51029D68197D5D8600482527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51029D66197D5D8600482527 /* Main.storyboard */; };
+		51029D6B197D5D8600482527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51029D6A197D5D8600482527 /* ViewController.m */; };
+		51029D6D197D5D8600482527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51029D6C197D5D8600482527 /* Images.xcassets */; };
+		51029D74197D5D8600482527 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D73197D5D8600482527 /* XCTest.framework */; };
+		51029D75197D5D8600482527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D54197D5D8600482527 /* Foundation.framework */; };
+		51029D76197D5D8600482527 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D58197D5D8600482527 /* UIKit.framework */; };
+		51029D7E197D5D8600482527 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51029D7C197D5D8600482527 /* InfoPlist.strings */; };
+		51029D80197D5D8600482527 /* WTF_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51029D7F197D5D8600482527 /* WTF_iOSTests.m */; };
+		51029D8A197D5E2100482527 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51029D89197D5E2100482527 /* AudioToolbox.framework */; };
+		51029D8D197DA5EE00482527 /* WTF.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 51029D8C197DA5EE00482527 /* WTF.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51029D77197D5D8600482527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51029D49197D5D8600482527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51029D50197D5D8600482527;
+			remoteInfo = "WTF iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51029D51197D5D8600482527 /* WTF App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WTF App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51029D54197D5D8600482527 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51029D56197D5D8600482527 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51029D58197D5D8600482527 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51029D5C197D5D8600482527 /* WTF App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTF App-Info.plist"; sourceTree = "<group>"; };
+		51029D5E197D5D8600482527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51029D60197D5D8600482527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51029D62197D5D8600482527 /* WTF App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTF App-Prefix.pch"; sourceTree = "<group>"; };
+		51029D63197D5D8600482527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51029D64197D5D8600482527 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51029D67197D5D8600482527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51029D69197D5D8600482527 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51029D6A197D5D8600482527 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51029D6C197D5D8600482527 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51029D72197D5D8600482527 /* WTF AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WTF AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51029D73197D5D8600482527 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		51029D7B197D5D8600482527 /* WTF AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTF AppTests-Info.plist"; sourceTree = "<group>"; };
+		51029D7D197D5D8600482527 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51029D7F197D5D8600482527 /* WTF_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTF_iOSTests.m; sourceTree = "<group>"; };
+		51029D89197D5E2100482527 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		51029D8B197D5F2B00482527 /* Test 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Test 1.m4a"; sourceTree = "<group>"; };
+		51029D8C197DA5EE00482527 /* WTF.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WTF.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51029D4E197D5D8600482527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D8A197D5E2100482527 /* AudioToolbox.framework in Frameworks */,
+				51029D57197D5D8600482527 /* CoreGraphics.framework in Frameworks */,
+				51029D59197D5D8600482527 /* UIKit.framework in Frameworks */,
+				51029D55197D5D8600482527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51029D6F197D5D8600482527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D74197D5D8600482527 /* XCTest.framework in Frameworks */,
+				51029D76197D5D8600482527 /* UIKit.framework in Frameworks */,
+				51029D75197D5D8600482527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51029D48197D5D8600482527 = {
+			isa = PBXGroup;
+			children = (
+				51029D5A197D5D8600482527 /* WTF iOS */,
+				51029D79197D5D8600482527 /* WTF iOSTests */,
+				51029D53197D5D8600482527 /* Frameworks */,
+				51029D52197D5D8600482527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51029D52197D5D8600482527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51029D51197D5D8600482527 /* WTF App.app */,
+				51029D72197D5D8600482527 /* WTF AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51029D53197D5D8600482527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51029D89197D5E2100482527 /* AudioToolbox.framework */,
+				51029D54197D5D8600482527 /* Foundation.framework */,
+				51029D56197D5D8600482527 /* CoreGraphics.framework */,
+				51029D58197D5D8600482527 /* UIKit.framework */,
+				51029D73197D5D8600482527 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51029D5A197D5D8600482527 /* WTF iOS */ = {
+			isa = PBXGroup;
+			children = (
+				51029D63197D5D8600482527 /* AppDelegate.h */,
+				51029D64197D5D8600482527 /* AppDelegate.m */,
+				51029D66197D5D8600482527 /* Main.storyboard */,
+				51029D69197D5D8600482527 /* ViewController.h */,
+				51029D6A197D5D8600482527 /* ViewController.m */,
+				51029D6C197D5D8600482527 /* Images.xcassets */,
+				51029D5B197D5D8600482527 /* Supporting Files */,
+			);
+			path = "WTF iOS";
+			sourceTree = "<group>";
+		};
+		51029D5B197D5D8600482527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51029D8C197DA5EE00482527 /* WTF.m4a */,
+				51029D8B197D5F2B00482527 /* Test 1.m4a */,
+				51029D5C197D5D8600482527 /* WTF App-Info.plist */,
+				51029D5D197D5D8600482527 /* InfoPlist.strings */,
+				51029D60197D5D8600482527 /* main.m */,
+				51029D62197D5D8600482527 /* WTF App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51029D79197D5D8600482527 /* WTF iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				51029D7F197D5D8600482527 /* WTF_iOSTests.m */,
+				51029D7A197D5D8600482527 /* Supporting Files */,
+			);
+			path = "WTF iOSTests";
+			sourceTree = "<group>";
+		};
+		51029D7A197D5D8600482527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51029D7B197D5D8600482527 /* WTF AppTests-Info.plist */,
+				51029D7C197D5D8600482527 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51029D50197D5D8600482527 /* WTF App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51029D83197D5D8600482527 /* Build configuration list for PBXNativeTarget "WTF App" */;
+			buildPhases = (
+				51029D4D197D5D8600482527 /* Sources */,
+				51029D4E197D5D8600482527 /* Frameworks */,
+				51029D4F197D5D8600482527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WTF App";
+			productName = "WTF iOS";
+			productReference = 51029D51197D5D8600482527 /* WTF App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51029D71197D5D8600482527 /* WTF AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51029D86197D5D8600482527 /* Build configuration list for PBXNativeTarget "WTF AppTests" */;
+			buildPhases = (
+				51029D6E197D5D8600482527 /* Sources */,
+				51029D6F197D5D8600482527 /* Frameworks */,
+				51029D70197D5D8600482527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51029D78197D5D8600482527 /* PBXTargetDependency */,
+			);
+			name = "WTF AppTests";
+			productName = "WTF iOSTests";
+			productReference = 51029D72197D5D8600482527 /* WTF AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51029D49197D5D8600482527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TimHerbig;
+				TargetAttributes = {
+					51029D50197D5D8600482527 = {
+						DevelopmentTeam = 2X9C294JJQ;
+					};
+					51029D71197D5D8600482527 = {
+						TestTargetID = 51029D50197D5D8600482527;
+					};
+				};
+			};
+			buildConfigurationList = 51029D4C197D5D8600482527 /* Build configuration list for PBXProject "WTF App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51029D48197D5D8600482527;
+			productRefGroup = 51029D52197D5D8600482527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51029D50197D5D8600482527 /* WTF App */,
+				51029D71197D5D8600482527 /* WTF AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51029D4F197D5D8600482527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D8D197DA5EE00482527 /* WTF.m4a in Resources */,
+				51029D6D197D5D8600482527 /* Images.xcassets in Resources */,
+				51029D5F197D5D8600482527 /* InfoPlist.strings in Resources */,
+				51029D68197D5D8600482527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51029D70197D5D8600482527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D7E197D5D8600482527 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51029D4D197D5D8600482527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D6B197D5D8600482527 /* ViewController.m in Sources */,
+				51029D65197D5D8600482527 /* AppDelegate.m in Sources */,
+				51029D61197D5D8600482527 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51029D6E197D5D8600482527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51029D80197D5D8600482527 /* WTF_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51029D78197D5D8600482527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51029D50197D5D8600482527 /* WTF App */;
+			targetProxy = 51029D77197D5D8600482527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51029D5D197D5D8600482527 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51029D5E197D5D8600482527 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		51029D66197D5D8600482527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51029D67197D5D8600482527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51029D7C197D5D8600482527 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51029D7D197D5D8600482527 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51029D81197D5D8600482527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51029D82197D5D8600482527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51029D84197D5D8600482527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTF iOS/WTF App-Prefix.pch";
+				INFOPLIST_FILE = "WTF iOS/WTF App-Info.plist";
+				PRODUCT_NAME = "WTF App";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		51029D85197D5D8600482527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTF iOS/WTF App-Prefix.pch";
+				INFOPLIST_FILE = "WTF iOS/WTF App-Info.plist";
+				PRODUCT_NAME = "WTF App";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		51029D87197D5D8600482527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTF iOS.app/WTF iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTF iOS/WTF iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WTF iOSTests/WTF AppTests-Info.plist";
+				PRODUCT_NAME = "WTF AppTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		51029D88197D5D8600482527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WTF iOS.app/WTF iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WTF iOS/WTF iOS-Prefix.pch";
+				INFOPLIST_FILE = "WTF iOSTests/WTF AppTests-Info.plist";
+				PRODUCT_NAME = "WTF AppTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51029D4C197D5D8600482527 /* Build configuration list for PBXProject "WTF App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51029D81197D5D8600482527 /* Debug */,
+				51029D82197D5D8600482527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51029D83197D5D8600482527 /* Build configuration list for PBXNativeTarget "WTF App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51029D84197D5D8600482527 /* Debug */,
+				51029D85197D5D8600482527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51029D86197D5D8600482527 /* Build configuration list for PBXNativeTarget "WTF AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51029D87197D5D8600482527 /* Debug */,
+				51029D88197D5D8600482527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51029D49197D5D8600482527 /* Project object */;
+}
